@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded" , function () {
      
         if (userExists) {
             alert("You successfully logged in")
-            document.location.href = ""
+            document.location.href = "newpage.html"
         }else{
             alert("email or password are wrong");
         }

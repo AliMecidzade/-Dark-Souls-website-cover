@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/minecraftia" type="text/css"/>
  
   <style>
+    
+.form{
+    width: 100%;
+    height: 100%;
+}
+
+
+  .home{
+            font-family: 'MinecraftiaRegular';
+            color: #0b0c0b;
+            font-size: 20px;
+
+        }
+        a:hover {
+text-decoration:none ;
+}
+
       body{
           background-image: url("./images/2019-08-02_14.20.33.png")
       }
@@ -17,25 +35,36 @@
 
 </head>
 <body>
-    <div class="container ">
-        <form class="col-md-6 shadow" style="top: 200px; left: 300px;">
-            <label>Email:</label>
-            <input type="email" class="form-control" id="inp_email">
-            <label>Password:</label>
-            <input type="password" class="form-control" id="inp_password">
-            <input type="button" value="Log in" class="btn btn-primary p-3 m-3" id="inp_button">
-        </form>
+    <div class="form">
+        <div class="back-home " style="padding: 10px;">
+            <i class="fas fa-arrow-left"></i>
+            <a href="./index.html" class="home" >Back</a>
+            
+        </div>
+        <div class="container ">
+            <form class="col-md-6 shadow" style="top: 200px; left: 300px;">
+                <label>Email:</label>
+                <input type="email" class="form-control" id="inp_email">
+                <label>Password:</label>
+                <input type="password" class="form-control" id="inp_password">
+                <input type="button" value="Log in" class="btn btn-primary p-3 m-3" id="inp_button">
+            </form>
+        
+        
+        
     
     
-    
-
-
+        </div>
     </div>
 
 
 
-
-    
+    <script src="https://kit.fontawesome.com/ae7d8ba4fd.js" crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="./scripts/main.js"></script>
 </body>
 </html>
+
+
+
+
